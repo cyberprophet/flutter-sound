@@ -11,10 +11,9 @@ version: 9.17.8
 
 homepage: https://github.com/canardoux/flutter_sound/blob/master/flutter_sound/
 
-
 environment:
   sdk: ^3.3.0
-  flutter: '>=3.3.0'
+  flutter: ">=3.3.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -26,24 +25,22 @@ dependencies:
   flutter:
     sdk: flutter
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
 
-
-# ============================================================================
-# The following instructions are just for developing/debugging Flutter Sound
-# Do not put them in a real App
+  # ============================================================================
+  # The following instructions are just for developing/debugging Flutter Sound
+  # Do not put them in a real App
   flutter_sound_platform_interface: 9.17.8
-#    path: ../../flutter_sound_platform_interface
+  #    path: ../../flutter_sound_platform_interface
   flutter_sound_web: 9.17.8
-#    path: ../../flutter_sound_web # flutter_sound_web Dir
+  #    path: ../../flutter_sound_web # flutter_sound_web Dir
   flutter_sound: ^9.17.8
-#    path: ../ # Flutter Sound Dir
-# ============================================================================
+  #    path: ../ # Flutter Sound Dir
+  # ============================================================================
 
-#  flutter_sound_platform_interface: ^9.17.8
+  #  flutter_sound_platform_interface: ^9.17.8
 
   path_provider: ^2.0.2
   permission_handler: ^11.3.0
@@ -52,8 +49,6 @@ dependencies:
   just_audio: ^0.9.11
   audio_session: ^0.1.6
   logger: ^2.0.2
-
-
 
 dev_dependencies:
   flutter_test:
@@ -71,45 +66,40 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
-
   # To add assets to your application, add an assets section, like this:
   assets:
-  - res/icons/ic_play.png
-  - res/icons/ic_play_disabled.png
-  - res/icons/2.0x/ic_play.png
-  - res/icons/3.0x/ic_play.png
-  - res/icons/ic_stop.png
-  - res/icons/ic_stop_disabled.png
-  - res/icons/2.0x/ic_stop.png
-  - res/icons/3.0x/ic_stop.png
-  - res/icons/ic_pause.png
-  - res/icons/ic_pause_disabled.png
-  - res/icons/2.0x/ic_pause.png
-  - res/icons/3.0x/ic_pause.png
-  - res/icons/ic_mic.png
-  - res/icons/ic_mic_disabled.png
-  - res/icons/2.0x/ic_mic.png
-  - res/icons/3.0x/ic_mic.png
-  - res/icons/ic_volume_down.png
-  - res/icons/2.0x/ic_volume_down.png
-  - res/icons/3.0x/ic_volume_down.png
-  - res/icons/ic_volume_up.png
-  - res/icons/2.0x/ic_volume_up.png
-  - res/icons/3.0x/ic_volume_up.png
+    - res/icons/ic_play.png
+    - res/icons/ic_play_disabled.png
+    - res/icons/2.0x/ic_play.png
+    - res/icons/3.0x/ic_play.png
+    - res/icons/ic_stop.png
+    - res/icons/ic_stop_disabled.png
+    - res/icons/2.0x/ic_stop.png
+    - res/icons/3.0x/ic_stop.png
+    - res/icons/ic_pause.png
+    - res/icons/ic_pause_disabled.png
+    - res/icons/2.0x/ic_pause.png
+    - res/icons/3.0x/ic_pause.png
+    - res/icons/ic_mic.png
+    - res/icons/ic_mic_disabled.png
+    - res/icons/2.0x/ic_mic.png
+    - res/icons/3.0x/ic_mic.png
+    - res/icons/ic_volume_down.png
+    - res/icons/2.0x/ic_volume_down.png
+    - res/icons/3.0x/ic_volume_down.png
+    - res/icons/ic_volume_up.png
+    - res/icons/2.0x/ic_volume_up.png
+    - res/icons/3.0x/ic_volume_up.png
 
-  - assets/
-  - assets/samples/
-  - assets/noises/
+    - assets/
+    - assets/samples/
+    - assets/noises/
   #- assets/extract/
-
-
-
 
   # To add assets to your application, add an assets section, like this:
   # assets:
